@@ -13,33 +13,45 @@ html,*
 
 .title {
     
-  font-size: 20rem;
+  font-size: 8rem;
   background-color: rgba(255, 255, 255, 0.2);
   margin: 2rem auto;
   text-align: center;
   width: 50rem;
   -webkit-backdrop-filter: blur(25px) saturate(10%);
-  border-radius: 12px;
-  border: 1px solid rgb(214, 100, 237);
-  box-shadow: 10px 10px rgb(192, 21, 192);
+  border-radius: 20px;
+  border: 1px solid rgb(165, 47, 185);
   transition: all 0.3s;
+  font-style: italic;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   
 }
 
 .btn_container {
-  font-size: 5rem;
+  font-size: 10rem;
   background-color: rgba(255, 255, 255, 0.2);
   margin: 2rem auto;
   text-align: center;
   align-items: center;
-  width: 50rem;
+  width: 20rem;
   -webkit-backdrop-filter: blur(25px) saturate(10%);
-  border-radius: 12px;
-  border: 1px solid rgb(214, 100, 237);
-  box-shadow: 10px 10px rgb(192, 21, 192);
+  border-radius: 10px;
+  border: 1px solid rgb(251, 229, 255);
+  box-shadow: 6px 6px rgb(196, 140, 196);
   transition: all 0.3s;
 }
 
+.btn{
+  width: 130px;
+  height: 70px;
+  transition: all 0.3s;
+  font-size: 2rem;
+  border-radius: 12px;
+}
+
+.btn:hover{
+  transform: scaleX();
+}
 
 .container{ 
   display: flex;

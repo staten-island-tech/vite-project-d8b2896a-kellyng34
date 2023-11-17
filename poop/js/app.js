@@ -1,3 +1,5 @@
+import "../style.css"
+
 const fruits= [
 {
     name: "banana",
@@ -128,3 +130,4 @@ const juices=[
     pic: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fstarfishmarket.com%2Fproduct%2Fdole-pineapple-juice-46-oz%2F&psig=AOvVaw0tRh-64omXb692UDTBYf91&ust=1700234008679000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCODujITnyIIDFQAAAAAdAAAAABAD",
 }
 ]
+
