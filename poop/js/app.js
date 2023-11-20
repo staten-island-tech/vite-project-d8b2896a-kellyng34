@@ -131,3 +131,32 @@ const juices=[
 }
 ]
 
+const DOMSelectors = {
+    form: document.querySelector("#form"),
+    name: document.querySelector("#name"),
+    price: document.querySelector("#price"),
+    pic: document.querySelector("#pic"),
+    container: document.querySelector(".container"),
+};
+
+const name = [];
+sortedArr.forEach((el) => names.push(el.name));
+
+function click() {
+    document.querySelectorAll(".button").forEach((button) => {
+        button.addEventListener("click", function (fruits) {
+
+            divCreator(fruits){
+                DOMSelectors.container.insertAdjacentHTML(
+                    "afterbegin",
+                    `<div class="card">
+                        <h2 class= cardname>${fruits.name}</h2>
+                        <h2 class= cardname>${fruits.price}</h2>
+                        <img src="${fruits.pic}" alt="" class="cardimg">
+                    </div>`
+                    )};
+           
+            });
+          });
+        }
+click();
