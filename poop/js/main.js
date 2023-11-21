@@ -1,5 +1,5 @@
 import "../style.css"
-import {menu, name} from"./Menu"
+import { menu, name } from "./Menu"
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
 

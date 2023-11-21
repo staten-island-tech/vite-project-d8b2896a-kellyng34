@@ -1,18 +1,16 @@
-
 body,
-html,* 
-
-{
-    font-size: 10px;
-    box-sizing: border-box;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    font-family: 'Barlow Condensed', sans-serif;
+html,
+* {
+  font-size: 10px;
+  box-sizing: border-box;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  font-family: 'Barlow Condensed', sans-serif;
 }
 
 .title {
-    
+
   font-size: 8rem;
   background-color: rgba(255, 255, 255, 0.2);
   margin: 2rem auto;
@@ -24,7 +22,7 @@ html,*
   transition: all 0.3s;
   font-style: italic;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  
+
 }
 
 .btn_container {
@@ -41,7 +39,7 @@ html,*
   transition: all 0.3s;
 }
 
-.btn{
+.btn {
   width: 130px;
   height: 50px;
   transition: all 0.3s;
@@ -49,18 +47,19 @@ html,*
   border-radius: 12px;
 }
 
-.btn:hover{
+.btn:hover {
   transform: scaleX();
 }
 
-.container{ 
+.container {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
-  
+
 }
-.card{
+
+.card {
   height: 50vh;
   width: 23%;
   background-color: rgba(255, 249, 255, 0.2);
@@ -77,10 +76,10 @@ html,*
 }
 
 
-.card-title{
+.card-title {
   font-size: 2.2rem;
   margin: 0.5rem 0;
-  text-transform:uppercase
+  text-transform: uppercase
 }
 
 
@@ -186,4 +185,3 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
-

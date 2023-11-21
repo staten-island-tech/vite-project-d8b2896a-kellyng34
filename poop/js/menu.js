@@ -1,4 +1,4 @@
-const menu= ['Za', 'noddle'];
-const name= "John";
+const menu = ['Za', 'noddle'];
+const name = "John";
 
-export{menu, name};
+export { menu, name };
