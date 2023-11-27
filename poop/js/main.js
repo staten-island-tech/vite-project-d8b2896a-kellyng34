@@ -1,5 +1,5 @@
 import "../style.css"
-import { menu, name } from "./Menu"
+import { DOMSelectors } from './dom.js';
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
 
@@ -22,3 +22,5 @@ document.querySelector('#app').innerHTML = `
 `
 
 setupCounter(document.querySelector('#counter'))
+
+const fruit = foods.filter((food) =)
