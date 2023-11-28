@@ -29,12 +29,10 @@ DOMSelectors.container_2.insertAdjacentHTML(
     "afterbegin",
     `<div class= "card">
        <h2 class= "name">${x.name}</h2>
-       <img src="${x.pic}" class="cardimg"
-       <h3 class= ${x.price}>price</h3>
+       <img src="${x.pic}" class="cardimg">
+       <h3 class=" price" id= >${x.price}</h3>
     </div>`
 )})};
-
-insert(foods)
 
 function clear(){
   DOMSelectors.container_2.innerHTML="";
@@ -46,7 +44,7 @@ let buttons = document.querySelectorAll('button')
 buttons.forEach((btn)=> btn.addEventListener("click",function(){
 
     let hh = btn.textContent.toLowerCase()
-    let newArr = foods.filter((food)=> food.cuisine === hh)
+    let newArr = foods.filter((food)=> food.thing === hh)
     clear()
     insert(newArr)
 }))

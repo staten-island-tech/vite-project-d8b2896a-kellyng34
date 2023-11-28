@@ -4,37 +4,37 @@ const foods = [
     {
         name: "banana",
         price: "$1",
-        pic: "banana.jpeg",
+        pic: "/banana.jpeg",
         thing: "fruit",
     },
     {
         name: "apple",
         price: "$2",
-        pic: "apple.jpeg",
+        pic: "/apple.jpeg",
         thing: "fruit",
     },
     {
         name: "orange",
         price: "$2",
-        pic: "orange.jpeg",
+        pic: "/orange.jpeg",
         thing: "fruit",
     },
     {
         name: "strawberries",
         price: "$1",
-        pic: "strawberries.jpeg",
+        pic: "/strawberry.jpeg",
         thing: "fruit",
     },
     {
         name: "rasberries",
         price: "$1",
-        pic: "rasberries.jpeg",
+        pic: "/rasberries.jpeg",
         thing: "fruit",
     },
     {
         name: "mango",
         price: "$1",
-        pic: "mango.jpeg",
+        pic: "/mango.jpeg",
         thing: "fruit",
     },
     {
