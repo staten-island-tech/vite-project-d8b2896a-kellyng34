@@ -4,10 +4,12 @@ const DOMSelectors = {
     vegetables: document.querySelector("#vegetables"),
     juices: document.querySelector("#juices"),
     foods: document.querySelector("#foods"),
-    button: document.querySelector(".button"),
+    btn: document.querySelector(".btn"),
     container: document.querySelector(".contianer"),
     card: document.querySelector(".card"),
 
+
 };
+
 
 export{DOMSelectors}

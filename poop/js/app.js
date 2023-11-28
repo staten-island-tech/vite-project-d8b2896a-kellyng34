@@ -1,6 +1,6 @@
 import "../style.css"
 
-const food = [
+const foods = [
     {
         name: "banana",
         price: "$1",
@@ -147,10 +147,4 @@ const food = [
         pic: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fstarfishmarket.com%2Fproduct%2Fdole-pineapple-juice-46-oz%2F&psig=AOvVaw0tRh-64omXb692UDTBYf91&ust=1700234008679000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCODujITnyIIDFQAAAAAdAAAAABAD",
     }
 ]
-
-const name = [];
-const price = [];
-const pic = [];
-sortedArr.forEach((el) => name.push(el.name));
-sortedArr.forEach((el) => price.push(el.price));
-sortedArr.forEach((el) => pic.push(el.pic));
+export {foods}
