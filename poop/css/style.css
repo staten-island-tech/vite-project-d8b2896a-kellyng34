@@ -1,3 +1,4 @@
+
 body,
 html,
 * {
@@ -25,7 +26,7 @@ html,
 
 }
 
-.btn_container {
+.container_2 {
   font-size: 10rem;
   background-color: rgba(255, 255, 255, 0.2);
   margin: 2rem auto;
@@ -37,6 +38,10 @@ html,
   border: 1px solid rgb(251, 229, 255);
   box-shadow: 6px 6px rgb(196, 140, 196);
   transition: all 0.3s;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .btn {

@@ -5,7 +5,7 @@ const DOMSelectors = {
     juices: document.querySelector("#juices"),
     foods: document.querySelector("#foods"),
     btn: document.querySelector(".btn"),
-    container: document.querySelector(".contianer"),
+    container_2: document.querySelector(".contianer_2"),
     card: document.querySelector(".card"),
 
 

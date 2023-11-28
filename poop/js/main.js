@@ -1,8 +1,6 @@
-import "../style.css"
-import { DOMSelectors } from "./dom";
-import viteLogo from '/vite.svg'
-import {food} from "./app.js";
-import { setupCounter } from './counter.js'
+import '../css/style.css'
+import { DOMSelectors } from "./dom.js";
+import { foods } from "./app.js";
 
 
 // document.querySelector('#app').innerHTML = `
@@ -24,41 +22,31 @@ import { setupCounter } from './counter.js'
 // `
 
 
-function clear(){
-  DOMSelectors.container.innerHTML="";
-}
-
 
 function insert(arr){
     arr.forEach((x) => {
-DOMSelectors.container.insertAdjacentHTML(
-    "beforeend",
-    `<div class= "container"></div>
-    <div class= "card">
+DOMSelectors.container_2.insertAdjacentHTML(
+    "afterbegin",
+    `<div class= "card">
        <h2 class= "name">${x.name}</h2>
        <img src="${x.pic}" class="cardimg"
        <h3 class= ${x.price}>price</h3>
     </div>`
 )})};
 
+insert(foods)
 
-// insert(arr)
-
-
-// let buttons = document.querySelectorAll('button')
-
-
-// buttons.forEach((btn)=> btn.addEventListener("click", funtion(){
+function clear(){
+  DOMSelectors.container_2.innerHTML="";
+}
 
 
-//   let category = btn.textContent.toLowerCase()
+let buttons = document.querySelectorAll('button')
 
+buttons.forEach((btn)=> btn.addEventListener("click",function(){
 
-//   let newArr = foods.filter((food)=> food.thing === category)
-//   clear()
-
-
-//   insert(newArr)
-
-
-// }
+    let hh = btn.textContent.toLowerCase()
+    let newArr = foods.filter((food)=> food.cuisine === hh)
+    clear()
+    insert(newArr)
+}))
