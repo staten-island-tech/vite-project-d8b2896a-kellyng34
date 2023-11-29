@@ -39,7 +39,7 @@ function clear(){
 }
 
 
-let buttons = document.querySelectorAll('button')
+let buttons = document.querySelectorAll(".btn")
 
 buttons.forEach((btn)=> btn.addEventListener("click",function(){
 
@@ -48,3 +48,16 @@ buttons.forEach((btn)=> btn.addEventListener("click",function(){
     clear()
     insert(newArr)
 }))
+
+
+document.querySelector(".theme").addEventListener("click", function(){
+    if(document.body.classList.contains("blue")){
+        document.body.classList.remove("blue");
+        document.body.classList.add("purple");
+
+    }
+    else{
+        document.body.classList.add("purple");
+        document.body.classList.remove("blue");
+    }
+});
