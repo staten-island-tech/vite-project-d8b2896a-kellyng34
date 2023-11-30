@@ -57,7 +57,7 @@ document.querySelector(".theme").addEventListener("click", function(){
 
     }
     else{
-        document.body.classList.add("purple");
-        document.body.classList.remove("blue");
+        document.body.classList.add("blue");
+        document.body.classList.remove("purple");
     }
 });

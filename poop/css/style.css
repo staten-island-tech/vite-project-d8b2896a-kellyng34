@@ -8,19 +8,18 @@ html,
   margin: 0;
   padding: 0;
   font-family: 'Barlow Condensed', sans-serif;
+  background-color: var(--secondary);
 }
 
 .title {
 
   font-size: 8rem;
-  background-color: var(--primary);
-
+  background-color: var(--secondary);
   margin: 2rem auto;
   text-align: center;
   width: 50rem;
   -webkit-backdrop-filter: blur(25px) saturate(10%);
-  border-radius: 20px;
-  border: 1px solid rgb(165, 47, 185);
+  border-radius: 30px;
   transition: all 0.3s;
   font-style: italic;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -29,7 +28,7 @@ html,
 
 .container_2 {
   font-size: 10rem;
-  background-color: var(--secondary);
+  border: var(--primary);
   margin: 2rem auto;
   text-align: center;
   align-items: center;
@@ -49,7 +48,7 @@ html,
   transition: all 0.3s;
   font-size: 2rem;
   border-radius: 12px;
-  color: var(--tertiary);
+  background-color:white;
 }
 
 .btn:hover {
@@ -61,16 +60,13 @@ html,
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
-  background-color: var(--primary);
-  border: 1px var(--secondary);
-  box-shadow: 10px 10px var(--tertiary);
 
 }
 
 .card {
   height: 50vh;
   width: 23%;
-  background-color: rgba(255, 249, 255, 0.2);
+  background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -86,8 +82,8 @@ html,
 .card-title {
   font-size: 2.2rem;
   margin: 0.5rem 0;
-  text-transform: uppercase
-   background-color: var(--primary);
+  text-transform: uppercase;
+  background-color: var(--primary);
   border: 1px var(--secondary);
   box-shadow: 10px 10px var(--tertiary);
 }
@@ -103,6 +99,7 @@ html,
 
 .name,.price{
   font-size: large;
+  background-color: white;
 }
 
 .btn_2 {
@@ -116,6 +113,7 @@ html,
 
 
 
+
 :root{
   --light-blue:#cde3f8;
   --blue:#6b9aca;
@@ -126,23 +124,26 @@ html,
 }
 
 .theme{
-  background-color: white;
-  border-radius: 10px;
-  border-color: black;
-  font-size: 3rem;
-
+  width: 130px;
+  height: 50px;
+  transition: all 0.3s;
+  font-size: 2rem;
+  border-radius: 12px;
+  background-color:white;
+  margin:10px;
 }
 
+
 body.blue{
-  --secondary:#cde3f8;
-  --primary:#6b9aca;
-  --tertiary:#1977d4;
+  --secondary: var(--light-blue);
+  --primary: var(--blue);
+  --tertiary: var(--dark-blue);
 }
 
 body.purple{
-  --secondary:#da8df8;
-  --primary:#c963f1; 
-  --tertiary:#9f41c4;
+  --secondary: var(--light-purple);
+  --primary: var(--purple);
+  --tertiary: var(--dark-purple);
 }
 
 
