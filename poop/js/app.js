@@ -54,7 +54,7 @@ const foods = [
         name: "cucumber",
         price: "$1",
         thing: "vegetable",
-        pic: "http://www.plantgrower.org/uploads/6/5/5/4/65545169/published/cucumber-slices.jpg?1516496438",
+        pic: "https://4.bp.blogspot.com/-PMkqDLIDgtU/U7s9hQWoiDI/AAAAAAAAIcI/ECDZjo7Uwtw/s1600/1+cucumber.jpg",
     },
     {
         name: "sweetpotato",
