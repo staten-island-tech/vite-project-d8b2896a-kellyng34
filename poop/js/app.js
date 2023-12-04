@@ -54,7 +54,7 @@ const foods = [
         name: "cucumber",
         price: "$1",
         thing: "vegetable",
-        pic: "https://4.bp.blogspot.com/-PMkqDLIDgtU/U7s9hQWoiDI/AAAAAAAAIcI/ECDZjo7Uwtw/s1600/1+cucumber.jpg",
+        pic: "https://www.homeremediesweb.com/images/product_cucumber.jpg",
     },
     {
         name: "sweetpotato",
